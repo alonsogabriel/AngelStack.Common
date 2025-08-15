@@ -11,7 +11,7 @@
 		<Company>AngelStack</Company>
 		<PackageDescription>Provides common utilities and CLR extensions, designed to support any type of application.</PackageDescription>
 		<PackageTags>Common;Utilities;Shared</PackageTags>
-		<RepositoryUrl>https://github.com/alonsogabriel/DomainDrivenDesign.Abstractions</RepositoryUrl>
+		<RepositoryUrl>https://github.com/alonsogabriel/AngelStack.Common</RepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageIcon>logo.png</PackageIcon>
 	</PropertyGroup>
