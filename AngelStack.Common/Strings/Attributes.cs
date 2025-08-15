@@ -21,7 +21,7 @@ public class MinLength(int value) : Attribute
 }
 
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
-public class Regex([StringSyntax(StringSyntaxAttribute.Regex)] string value) : Attribute
+public class RegularExpression([StringSyntax(StringSyntaxAttribute.Regex)] string value) : Attribute
 {
     public string Value { get; } = value;
 }
