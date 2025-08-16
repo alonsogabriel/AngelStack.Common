@@ -68,4 +68,13 @@ public static partial class StringExtensions
     {
         return value.ReplaceAll(replacements.ToReplacements());
     }
+
+    public static string ToSnakeCase(string value)
+    {
+        return string.Concat(
+            value.Select((c, i) =>
+                i > 0 && char.IsUpper(c) ? "_" + c : c.ToString()
+            )
+        ).ToLower();
+    }
 }
